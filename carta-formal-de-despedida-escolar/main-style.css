@@ -1,0 +1,92 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: hsl(30, 38, 92); 
+    padding: 10px;
+}
+
+h1 {
+    font-family: "Agbalumo", sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    color: #01f;
+    width: 97.5%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    margin: 0;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+input {
+    font-family: "Grand hotel", sans-serif;
+    font-size: large;
+    background-color: hsl(228, 12%, 48%);
+    color: rgb(0, 216, 216);
+    width: 200px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 0;
+}
+
+button {
+    font-family: "Grand hotel", sans-serif;
+    font-size: large;
+    background-color: hsl(228, 87%, 70%);
+    color: rgb(0, 110, 110);
+    width: 200px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 1;
+}
+
+p {
+    font-family: "Agbalumo", sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: lightcyan;
+    color: darkblue;
+    width: 97.5%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    align-self: center;
+    gap: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(228, 78%, 75%);
+}
+
+.uiprof {
+display: flex;
+flex-direction: column;
+width: 100%;
+align-items: center;
+justify-content: center;
+min-height: 100%;
+margin: 0;
+padding: 40px;
+}
+
+.main-ui {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    margin: 0;
+    padding: 10px;
+}

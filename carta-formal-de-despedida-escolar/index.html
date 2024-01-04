@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="icon" type="image/png" sizes="512x512" href="imgs\champanhe.png"/>
+  <title>Agradecimentos de Fim de Ano Letivo - End of School Year Thanks</title>
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Grand+Hotel&display=swap" rel="stylesheet">
+
+<link href="main-style.css" rel="stylesheet">
+
+<body>
+  <div class="ui-prof">
+    <h1>Digite seu nome Professor@</h1>
+    <div class="main-ui">
+      <input type="text" id="nome">
+      <br>
+      <button onclick="mostrarNome()">Clique Aqui Para a Surpresa</button> 
+    </div>
+    
+
+  </div>
+  <p id="nome-exibido"></p>
+  <p id="txt-carta" class="txt-c"></p>
+  <p id="digitalSignature"></p>
+</body>
+<script>
+function mostrarNome() {
+  var nome = document.getElementById("nome").value;
+  document.getElementById("nome-exibido").innerHTML = "Car@, " + nome + "!";
+  document.getElementById("txt-carta").innerHTML = "este ano que passou foi um ano de glória e desafios, tanto por parte do corpo docente, quanto estudantil, porém não vem ao caso, venho em forma desta carta virtual parabenizar e agradecer por todo carinho e atenção em que você, " + nome + ", teve ao lecionar para a turma de 2005-2006, e apesar de não ter tido uma despedida formal em que trato nesta carta, é que me dispeço, personificando minhas emoções em forma de um documento com a qual será disponibilizado à você, e aos demais corpos docentes a que me refiro neste escrito, agradeço toda a atenção e empenho que tiveram ao ensinarem a como realmente ver e viver o mundo, mesmo tendo dificuldades e obstáculos a frente, e com infinito sentimento de saudade que finalizo esta carta de despedida, muito obrigado pelo tempo que passamos juntos, e pela paciência ao explanar os conteúdos propostos, por sempre nos guiarem sempre à direção correta, mesmo nos momentos mais difíceis."
+  document.getElementById("digitalSignature").innerHTML = "Atenciosamente: João Pedro Gabriel 3ºA 2023"
+}
+</script>
+</html>
